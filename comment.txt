@@ -1,0 +1,80 @@
+bechara
+
+Good job on the excel workbook.  I like the PivotTables that you have created.  One of the things that you need to keep in mind of is your average donor value is a dollar value and this will need to be formatted.  Also, a couple of your graphs do not have a stacked bar Pivot Graph.  Great job on the bonus.
+Very well analyzed, it is interesting that December is the most failing month
+One challenge that I have for you is that different campaigns have different currency, ho do you normalize the campaigns so that they are all in USD?
+
+A-
+
+END
+Haren
+
+Nice job on the assignment. Especially the bonus, only thing that I would do is to put a title on the chart for the bonus.
+Very good analysis.  I like the fact that you pointed out the differences in the currency and the potential of doing an analysis to normalize it to one.
+I do like the idea of creating all the financial data based on the currency and then converting it to USD.  It may be a lot of code to convert each money amount into a USD, but from what you know in two, you at least have a good starting point if you ever want to pursue this.
+
+A+
+
+END
+Halek
+
+Nice job on the excel workbook, very colorful indeed, and especially well done on the bonus.
+Very well analyzed.  I like your story telling through the percentages, because it is important to convey the message through numbers.  
+My Challenge to you as you think about being a programmer is how would you figure out how many days each campaign last and then see what kind of data can you make with this analysis.
+
+A+
+
+END
+Bowen
+
+Great job on the excel homework, I like how you ordered some of your data by most to least in the categories and the countries.
+Great job on the analysis of the data.  Nice conclusions and you explained the limitations on the data very well.
+It is interesting that you said text analysis, because we will be going over machine learning on how to analysis it for sentimental value.  That is what I would like for you to think about that before we get there.
+
+A+
+
+END
+gaffney
+
+nicely done on the excel homework, you are an excel guru
+Nice analysis, I like the usage of percentage to accurately tell the story.
+My Challenge to you as you think about being a programmer is how would you figure out how many days each campaign last and then see what kind of data you can make with this analysis.
+
+A+
+
+END
+Cary
+
+Very good job on the Excel Homework, really impressed with the workbook you produced.
+Good analysis on the Kickstarter, Ito would be good if they got information on which people are donating to their campaigns to see whether the cause is as international as we think.
+The challenge that I have for you, as we are going into the section where you need to think like a programmer is to try and not tackle everything all at once and practice tasks.
+
+A
+
+END
+xu
+
+Good job on the Excel workbook, good on the pivot tables.  However, for the two pivot tables, the instructions call for a stacked bar graph.  Also, the line graph for the states does not match the picture in the homework.  Perhaps if you try to do a pivot Graph, you would get a different result.  You also needed to remove the quarters from the row field to only show the months. 
+For the analysis I would like a more succinct analysis, such as the percentage of success rates in between categories, What months have the best success rate in starting campaigns.  I would like for you to use percentages and ratios to describe the data.  
+
+B
+
+END
+Li
+
+For your excel workbook, you did a good job on it.  Couple of things to keep in the back of your mind.  One, you are missing the data for the countries.  To better tell the story, use formatting to show that a column is a percentage or a currency column.
+I like the analysis, I especially like the suggestions for tracking the data by gender and age, the one thing that I would recommend is to use more ratios and percentages to tell your story.
+The challenge that I have for you is to try to figure out a way to extract data from gender and age.  This is the introductions to think like a programmer.
+
+A-
+
+END
+Khmelnitskiy
+
+Nice job on the Excel workbook, You really understand how to make workbooks tell the story.  Keep it up!
+Very nice analysis, I agree that looking at the 300,000 Kickstarter campaigns will give us a pretty good analysis on the categories.  We are not sure if 1-2% of the data is significant to see any trends.
+One of the challenges that I have for you is to is to think of how to account for big data, because we will be working with data that could be in the millions of records and what methods can we use for larger datasets.
+
+A+
+
+END
