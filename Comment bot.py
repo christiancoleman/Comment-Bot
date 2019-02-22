@@ -1,68 +1,39 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 from splinter import Browser
-
-
-# In[2]:
-
-
 from bs4 import BeautifulSoup
 from config import user, password, the_assignment
 import time
 
-
-# In[3]:
-
-
 executable_path = {'executable_path': '/home/datavisualization/DV/python-homework-scraper/chromedriver'}
 browser = Browser('chrome', **executable_path, headless=False)
 
-
-# In[4]:
-
-
+#Input your credentials
 browser.visit("https://bootcampspot.com")
-
-
-# In[5]:
-
-
 browser.find_by_css("#emailAddress").type(user)
 browser.find_by_css("#password").type(password)
 browser.find_by_css("button.btn-submit").click()
-
-
-# In[6]:
-
-
 time.sleep(2)
+
+#Navigate to the main menu, comment out lines 17 - 18 if you went directly to the main menu
 browser.find_by_css("td.col-md-3:nth-child(3)").click()
 browser.find_by_css("span").click()
 
-
-# In[7]:
-
-
+#main menu
 browser.find_by_xpath(".//a[contains(@href,'gradebook')]").click()
+
+#gradeook
 browser.find_option_by_text(the_assignment).first.click()
 browser.find_option_by_text("0: Data Prework").first.click()
 time.sleep(2)
 browser.find_option_by_text(the_assignment).first.click()
 
-
-# In[8]:
-
-
+# function used for saving comments
 def calll():
     try:
         browser.find_by_css("button.btn-save").click()
     except:
         print("error")
 
+#Start Reading Comments
 stage = 0
 with open("comment.txt") as fp:
     line = fp.readline()
@@ -99,11 +70,6 @@ with open("comment.txt") as fp:
                          
         line = fp.readline()
         time.sleep(2)
+        
+ #Quit Browser
 browser.quit()
-
-
-# In[ ]:
-
-
-
-
