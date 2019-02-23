@@ -2,8 +2,20 @@ from splinter import Browser
 from bs4 import BeautifulSoup
 from config import user, password, the_assignment
 import time
+from sys import platform
+import os
 
-executable_path = {'executable_path': '/home/datavisualization/DV/python-homework-scraper/chromedriver'}
+executable_path = None
+
+if platform == "linux" or platform == "linux2":
+    executable_path = {'executable_path': os.path.join("binaries", "chromedriver-linux")}
+elif platform == "darwin":
+    executable_path = {'executable_path': os.path.join("binaries", "chromedriver-mac")}
+elif platform == "win32":
+    executable_path = {'executable_path': os.path.join("binaries", "chromedriver-windows.exe")}
+
+print(executable_path)
+
 browser = Browser('chrome', **executable_path, headless=False)
 
 #Input your credentials
